@@ -39,8 +39,6 @@ function connexio(){
     }
 }
 
-
-
     app.put('/registre', cors(), async (req, res) => {
         const db = getFirestore();
         const usuari = {
